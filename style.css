@@ -40,10 +40,16 @@ input{
     padding: 1.2rem;
     outline: none;
     border: none;
-    border-top-left-radius: 10rem;
-    border-bottom-left-radius: 10rem;
+    border-radius: 10rem;
     margin-top: 2rem;
 
+}
+
+::placeholder{
+    font-weight: bolder;
+    color: black;
+    font-size: 1rem;
+    margin-left: 2rem;
 }
 /* 
 .btn{
